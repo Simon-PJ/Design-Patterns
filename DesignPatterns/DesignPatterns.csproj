@@ -45,7 +45,19 @@
     <Compile Include="AbstractFactory\FuturamaFactory.cs" />
     <Compile Include="AbstractFactory\SciFiFactory.cs" />
     <Compile Include="AbstractFactory\StarWarsFactory.cs" />
+    <Compile Include="Builder\AbstractPlanetBuilder.cs" />
+    <Compile Include="Builder\Director.cs" />
+    <Compile Include="Builder\DunePlanetBuilder.cs" />
+    <Compile Include="Builder\HyperionPlanetBuilder.cs" />
+    <Compile Include="Builder\Planet.cs" />
+    <Compile Include="FactoryMethod\Character.cs" />
+    <Compile Include="FactoryMethod\Story.cs" />
+    <Compile Include="FactoryMethod\ThePlayerOfGames.cs" />
+    <Compile Include="FactoryMethod\UseOfWeapons.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prototype\Client.cs" />
+    <Compile Include="Prototype\IShipPrototype.cs" />
+    <Compile Include="Prototype\Ship.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
