@@ -58,6 +58,7 @@
     <Compile Include="Prototype\Client.cs" />
     <Compile Include="Prototype\IShipPrototype.cs" />
     <Compile Include="Prototype\Ship.cs" />
+    <Compile Include="Singleton\LaNuevaTemporadaWormhole.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
