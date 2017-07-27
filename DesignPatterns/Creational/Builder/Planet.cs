@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace DesignPatterns.Builder
+namespace DesignPatterns.Creational.Builder
 {
     class Planet
     {

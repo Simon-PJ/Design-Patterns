@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Singleton
+﻿namespace DesignPatterns.Creational.Singleton
 {
     public sealed class LaNuevaTemporadaWormhole
     {

@@ -40,25 +40,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory\Consumer.cs" />
-    <Compile Include="AbstractFactory\CultureFactory.cs" />
-    <Compile Include="AbstractFactory\FuturamaFactory.cs" />
-    <Compile Include="AbstractFactory\SciFiFactory.cs" />
-    <Compile Include="AbstractFactory\StarWarsFactory.cs" />
-    <Compile Include="Builder\AbstractPlanetBuilder.cs" />
-    <Compile Include="Builder\Director.cs" />
-    <Compile Include="Builder\DunePlanetBuilder.cs" />
-    <Compile Include="Builder\HyperionPlanetBuilder.cs" />
-    <Compile Include="Builder\Planet.cs" />
-    <Compile Include="FactoryMethod\Character.cs" />
-    <Compile Include="FactoryMethod\Story.cs" />
-    <Compile Include="FactoryMethod\ThePlayerOfGames.cs" />
-    <Compile Include="FactoryMethod\UseOfWeapons.cs" />
+    <Compile Include="Creational\AbstractFactory\Consumer.cs" />
+    <Compile Include="Creational\AbstractFactory\CultureFactory.cs" />
+    <Compile Include="Creational\AbstractFactory\FuturamaFactory.cs" />
+    <Compile Include="Creational\AbstractFactory\SciFiFactory.cs" />
+    <Compile Include="Creational\AbstractFactory\StarWarsFactory.cs" />
+    <Compile Include="Creational\Builder\AbstractPlanetBuilder.cs" />
+    <Compile Include="Creational\Builder\Director.cs" />
+    <Compile Include="Creational\Builder\DunePlanetBuilder.cs" />
+    <Compile Include="Creational\Builder\HyperionPlanetBuilder.cs" />
+    <Compile Include="Creational\Builder\Planet.cs" />
+    <Compile Include="Creational\FactoryMethod\Character.cs" />
+    <Compile Include="Creational\FactoryMethod\Story.cs" />
+    <Compile Include="Creational\FactoryMethod\ThePlayerOfGames.cs" />
+    <Compile Include="Creational\FactoryMethod\UseOfWeapons.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Prototype\Client.cs" />
-    <Compile Include="Prototype\IShipPrototype.cs" />
-    <Compile Include="Prototype\Ship.cs" />
-    <Compile Include="Singleton\LaNuevaTemporadaWormhole.cs" />
+    <Compile Include="Creational\Prototype\Client.cs" />
+    <Compile Include="Creational\Prototype\IShipPrototype.cs" />
+    <Compile Include="Creational\Prototype\Ship.cs" />
+    <Compile Include="Creational\Singleton\LaNuevaTemporadaWormhole.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
