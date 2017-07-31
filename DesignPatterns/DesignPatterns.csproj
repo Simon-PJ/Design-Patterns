@@ -59,6 +59,12 @@
     <Compile Include="Creational\Prototype\IShipPrototype.cs" />
     <Compile Include="Creational\Prototype\Ship.cs" />
     <Compile Include="Creational\Singleton\LaNuevaTemporadaWormhole.cs" />
+    <Compile Include="Structural\Adapter\Client.cs" />
+    <Compile Include="Structural\Adapter\IStarWarsTrilogy.cs" />
+    <Compile Include="Structural\Adapter\OriginalTrilogy.cs" />
+    <Compile Include="Structural\Adapter\OriginalTrilogyAdapter.cs" />
+    <Compile Include="Structural\Adapter\PrequelTrilogy.cs" />
+    <Compile Include="Structural\Adapter\PrequelTrilogyAdapter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
