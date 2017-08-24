@@ -68,6 +68,10 @@
     <Compile Include="Structural\Bridge\Author.cs" />
     <Compile Include="Structural\Bridge\Book.cs" />
     <Compile Include="Structural\Bridge\Consumer.cs" />
+    <Compile Include="Structural\Composite\Book.cs" />
+    <Compile Include="Structural\Composite\Client.cs" />
+    <Compile Include="Structural\Composite\IStory.cs" />
+    <Compile Include="Structural\Composite\Series.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
