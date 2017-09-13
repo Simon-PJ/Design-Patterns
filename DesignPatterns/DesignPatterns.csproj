@@ -72,6 +72,10 @@
     <Compile Include="Structural\Composite\Client.cs" />
     <Compile Include="Structural\Composite\IStory.cs" />
     <Compile Include="Structural\Composite\Series.cs" />
+    <Compile Include="Structural\Decorator\Andrew.cs" />
+    <Compile Include="Structural\Decorator\IRobot.cs" />
+    <Compile Include="Structural\Decorator\NDR.cs" />
+    <Compile Include="Structural\Decorator\RobotDecorator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
