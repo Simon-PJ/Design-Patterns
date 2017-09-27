@@ -76,6 +76,10 @@
     <Compile Include="Structural\Decorator\IRobot.cs" />
     <Compile Include="Structural\Decorator\NDR.cs" />
     <Compile Include="Structural\Decorator\RobotDecorator.cs" />
+    <Compile Include="Structural\Facade\DuneFacade.cs" />
+    <Compile Include="Structural\Facade\Fremen.cs" />
+    <Compile Include="Structural\Facade\HouseArtreides.cs" />
+    <Compile Include="Structural\Facade\HouseHarkonnen.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
