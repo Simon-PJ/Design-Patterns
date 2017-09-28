@@ -80,6 +80,9 @@
     <Compile Include="Structural\Facade\Fremen.cs" />
     <Compile Include="Structural\Facade\HouseArtreides.cs" />
     <Compile Include="Structural\Facade\HouseHarkonnen.cs" />
+    <Compile Include="Structural\Flyweight\Client.cs" />
+    <Compile Include="Structural\Flyweight\StarWarsFactory.cs" />
+    <Compile Include="Structural\Flyweight\StarWarsFilm.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
