@@ -83,6 +83,9 @@
     <Compile Include="Structural\Flyweight\Client.cs" />
     <Compile Include="Structural\Flyweight\StarWarsFactory.cs" />
     <Compile Include="Structural\Flyweight\StarWarsFilm.cs" />
+    <Compile Include="Structural\Proxy\IInterestingTimesGang.cs" />
+    <Compile Include="Structural\Proxy\InterestingTimesGang.cs" />
+    <Compile Include="Structural\Proxy\InterestingTimesGangProxy.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
