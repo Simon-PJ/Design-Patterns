@@ -1,17 +1,17 @@
 ﻿using System;
 
-namespace DesignPatterns.Structural.ChainOfResponsibility
+namespace DesignPatterns.Behavioural.ChainOfResponsibility
 {
     /// <summary>
     /// Concrete handler participant
     /// </summary>
-    class TheTraders : FoundationEra
+    class TheMayors : FoundationEra
     {
         public override void HandleSeldonCrisis(SeldonRecording recording)
         {
-            if (recording.Number == 3)
+            if (recording.Number == 2)
             {
-                Console.WriteLine("Handling trade alone crisis...");
+                Console.WriteLine("Handling religion crisis...");
             }
             else if (NextEra != null)
             {

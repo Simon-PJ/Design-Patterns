@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatterns.Structural.ChainOfResponsibility
+namespace DesignPatterns.Behavioural.ChainOfResponsibility
 {
     /// <summary>
     /// Concrete handler participant
