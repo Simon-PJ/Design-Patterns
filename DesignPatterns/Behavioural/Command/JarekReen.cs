@@ -14,7 +14,7 @@ namespace DesignPatterns.Behavioural.Command
             _commands = preparationSteps;
         }
 
-        public void JumpToHyperspace()
+        public void JumpToShiftspace()
         {
             foreach (var command in _commands)
             {

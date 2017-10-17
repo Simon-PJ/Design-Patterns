@@ -20,7 +20,7 @@ namespace DesignPatterns.Behavioural.Command
             };
 
             jarek.PrepareForJump(commands);
-            jarek.JumpToHyperspace();
+            jarek.JumpToShiftspace();
         }
     }
 }
