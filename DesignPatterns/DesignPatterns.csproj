@@ -44,6 +44,12 @@
     <Compile Include="Behavioural\Command\HeartOfGlass.cs" />
     <Compile Include="Behavioural\Command\JarekReen.cs" />
     <Compile Include="Behavioural\Command\ShipCommand.cs" />
+    <Compile Include="Behavioural\Iterator\IJediAggregate.cs" />
+    <Compile Include="Behavioural\Iterator\IJediIterator.cs" />
+    <Compile Include="Behavioural\Iterator\Jedi.cs" />
+    <Compile Include="Behavioural\Iterator\JediAggregate.cs" />
+    <Compile Include="Behavioural\Iterator\JediIterator.cs" />
+    <Compile Include="Behavioural\Iterator\Order66.cs" />
     <Compile Include="Creational\AbstractFactory\Consumer.cs" />
     <Compile Include="Creational\AbstractFactory\CultureFactory.cs" />
     <Compile Include="Creational\AbstractFactory\FuturamaFactory.cs" />
