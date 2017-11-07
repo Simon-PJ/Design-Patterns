@@ -50,6 +50,12 @@
     <Compile Include="Behavioural\Iterator\JediAggregate.cs" />
     <Compile Include="Behavioural\Iterator\JediIterator.cs" />
     <Compile Include="Behavioural\Iterator\Order66.cs" />
+    <Compile Include="Behavioural\Mediator\Beevee.cs" />
+    <Compile Include="Behavioural\Mediator\Client.cs" />
+    <Compile Include="Behavioural\Mediator\IBeevee.cs" />
+    <Compile Include="Behavioural\Mediator\BeeveeUser.cs" />
+    <Compile Include="Behavioural\Mediator\JarekReen.cs" />
+    <Compile Include="Behavioural\Mediator\Minister.cs" />
     <Compile Include="Creational\AbstractFactory\Consumer.cs" />
     <Compile Include="Creational\AbstractFactory\CultureFactory.cs" />
     <Compile Include="Creational\AbstractFactory\FuturamaFactory.cs" />
