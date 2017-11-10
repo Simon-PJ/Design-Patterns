@@ -56,6 +56,10 @@
     <Compile Include="Behavioural\Mediator\BeeveeUser.cs" />
     <Compile Include="Behavioural\Mediator\JarekReen.cs" />
     <Compile Include="Behavioural\Mediator\Minister.cs" />
+    <Compile Include="Behavioural\Memento\Client.cs" />
+    <Compile Include="Behavioural\Memento\CultureCitizen.cs" />
+    <Compile Include="Behavioural\Memento\MindState.cs" />
+    <Compile Include="Behavioural\Memento\NeuralLace.cs" />
     <Compile Include="Creational\AbstractFactory\Consumer.cs" />
     <Compile Include="Creational\AbstractFactory\CultureFactory.cs" />
     <Compile Include="Creational\AbstractFactory\FuturamaFactory.cs" />
