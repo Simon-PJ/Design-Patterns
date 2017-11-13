@@ -60,6 +60,11 @@
     <Compile Include="Behavioural\Memento\CultureCitizen.cs" />
     <Compile Include="Behavioural\Memento\MindState.cs" />
     <Compile Include="Behavioural\Memento\NeuralLace.cs" />
+    <Compile Include="Behavioural\Observer\Client.cs" />
+    <Compile Include="Behavioural\Observer\Fremen.cs" />
+    <Compile Include="Behavioural\Observer\ISandListener.cs" />
+    <Compile Include="Behavioural\Observer\SandWalker.cs" />
+    <Compile Include="Behavioural\Observer\ShaiHulud.cs" />
     <Compile Include="Creational\AbstractFactory\Consumer.cs" />
     <Compile Include="Creational\AbstractFactory\CultureFactory.cs" />
     <Compile Include="Creational\AbstractFactory\FuturamaFactory.cs" />
