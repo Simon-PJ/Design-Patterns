@@ -65,6 +65,11 @@
     <Compile Include="Behavioural\Observer\ISandListener.cs" />
     <Compile Include="Behavioural\Observer\SandWalker.cs" />
     <Compile Include="Behavioural\Observer\ShaiHulud.cs" />
+    <Compile Include="Behavioural\State\Client.cs" />
+    <Compile Include="Behavioural\State\Hyperspace.cs" />
+    <Compile Include="Behavioural\State\IExistence.cs" />
+    <Compile Include="Behavioural\State\Matter.cs" />
+    <Compile Include="Behavioural\State\Multivac.cs" />
     <Compile Include="Creational\AbstractFactory\Consumer.cs" />
     <Compile Include="Creational\AbstractFactory\CultureFactory.cs" />
     <Compile Include="Creational\AbstractFactory\FuturamaFactory.cs" />
