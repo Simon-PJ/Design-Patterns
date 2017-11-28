@@ -70,6 +70,11 @@
     <Compile Include="Behavioural\State\IExistence.cs" />
     <Compile Include="Behavioural\State\Matter.cs" />
     <Compile Include="Behavioural\State\Multivac.cs" />
+    <Compile Include="Behavioural\Strategy\Client.cs" />
+    <Compile Include="Behavioural\Strategy\HyperdriveTravel.cs" />
+    <Compile Include="Behavioural\Strategy\ITravelStrategy.cs" />
+    <Compile Include="Behavioural\Strategy\MilleniumFalcon.cs" />
+    <Compile Include="Behavioural\Strategy\RegularTravel.cs" />
     <Compile Include="Creational\AbstractFactory\Consumer.cs" />
     <Compile Include="Creational\AbstractFactory\CultureFactory.cs" />
     <Compile Include="Creational\AbstractFactory\FuturamaFactory.cs" />
@@ -123,5 +128,6 @@
     <Compile Include="Structural\Proxy\InterestingTimesGang.cs" />
     <Compile Include="Structural\Proxy\InterestingTimesGangProxy.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
