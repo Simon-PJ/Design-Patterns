@@ -75,6 +75,9 @@
     <Compile Include="Behavioural\Strategy\ITravelStrategy.cs" />
     <Compile Include="Behavioural\Strategy\MilleniumFalcon.cs" />
     <Compile Include="Behavioural\Strategy\RegularTravel.cs" />
+    <Compile Include="Behavioural\TemplateMethod\ConsiderPhlebas.cs" />
+    <Compile Include="Behavioural\TemplateMethod\CultureNovel.cs" />
+    <Compile Include="Behavioural\TemplateMethod\ThePlayerOfGames.cs" />
     <Compile Include="Creational\AbstractFactory\Consumer.cs" />
     <Compile Include="Creational\AbstractFactory\CultureFactory.cs" />
     <Compile Include="Creational\AbstractFactory\FuturamaFactory.cs" />
